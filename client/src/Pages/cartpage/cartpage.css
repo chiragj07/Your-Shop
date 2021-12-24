@@ -1,0 +1,35 @@
+.cart-page-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+    /* border: 2px red solid; */
+    align-items: center;
+
+}
+.not-empty h1{
+    margin-top:40px;    
+}
+.empty{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+    
+    align-items: center;
+
+}
+.cart-btn{
+    margin: 10px;
+    border: 1px black solid;
+    width: 120px;
+    height: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: white;
+    background-color:black ;
+}
+.cart-btn:hover{
+    
+    background-color: white;
+    color:black ;
+}

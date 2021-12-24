@@ -1,0 +1,24 @@
+.products-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 50px;
+}
+.morebutton{
+    margin: 50px;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: white;
+    background-color:black ;
+    justify-content: center;
+}
+.morebutton:hover{
+    
+    background-color: white;
+    color:black ;
+}
+.allcontainer{
+    margin: 50px;
+}

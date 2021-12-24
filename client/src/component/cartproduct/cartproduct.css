@@ -1,0 +1,22 @@
+.cart-big{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    align-items: center;
+    margin: 5px;
+}
+.quantity{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.quantity img{
+    cursor: pointer;
+}
+.quantity span{
+ cursor: pointer;
+}

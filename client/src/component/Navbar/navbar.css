@@ -1,0 +1,64 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lnk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sign{
+ display: flex;
+ align-items: center;   
+}
+.sign img{
+    margin-left:10px;
+}
+.sign button{
+    margin: 5px;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    color: black;
+    background-color:white ;
+}
+.basiclinks button{
+    margin: 5px;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    background-color:black ;
+}
+.basiclinks button:hover{
+    
+    background-color: white;
+    color:black ;
+}
+.sign button:hover{
+    color: white;
+    background-color:black ;
+}
+
+.cartdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sss{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
